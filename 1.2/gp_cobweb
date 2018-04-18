@@ -1,2 +1,2 @@
 plot x, 2.8*x*(1-x), 'cobweb.dat' with lines
-
+pause -1 "Hit any key to continue"
