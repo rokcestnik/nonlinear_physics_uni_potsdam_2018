@@ -1,0 +1,6 @@
+plot [-3:3] [-6:6] "vdp_xy.dat" with lines,
+set term wxt 1
+set xzeroaxis
+plot "vdp_x.dat" with lines, \
+	 "vdp_y.dat" with lines,
+pause -1 "Hit any key to continue"
