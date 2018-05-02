@@ -1,0 +1,3 @@
+set term wxt 1
+plot "tongue.dat"
+pause -1 "Hit any key to continue"

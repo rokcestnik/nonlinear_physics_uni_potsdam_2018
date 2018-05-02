@@ -1,0 +1,4 @@
+set term wxt 1
+plot "freq.dat", \
+     x
+pause -1 "Hit any key to continue"
