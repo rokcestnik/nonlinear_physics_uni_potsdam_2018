@@ -1,0 +1,9 @@
+splot [-25:25] [-25:25] [0:50] "lorenz_xyz.dat" with lines,
+set term wxt 1
+plot [-25:25] [0:50] "lorenz_xz.dat" with lines,
+set term wxt 2
+set xzeroaxis
+plot "lorenz_x.dat" with lines, \
+	 "lorenz_y.dat" with lines, \
+	 "lorenz_z.dat" with lines
+pause -1 "Hit any key to continue"

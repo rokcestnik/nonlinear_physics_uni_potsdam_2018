@@ -1,0 +1,10 @@
+splot [-15:15] [-15:15] [0:20] "roessler_xyz.dat" with lines, \
+							   "roessler_fix.dat" with points
+set term wxt 1
+plot [-15:15] [-15:15] "roessler_xy.dat" with lines,
+set term wxt 2
+set xzeroaxis
+plot "roessler_x.dat" with lines, \
+	 "roessler_y.dat" with lines, \
+	 "roessler_z.dat" with lines
+pause -1 "Hit any key to continue"

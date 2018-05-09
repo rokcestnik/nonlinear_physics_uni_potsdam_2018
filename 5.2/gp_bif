@@ -1,0 +1,2 @@
+plot [0:0.2] [0:11] "bif.dat" pt 7 ps 0.1
+pause -1 "Hit any key to continue"

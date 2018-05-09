@@ -1,0 +1,3 @@
+set xzeroaxis
+plot "dif.dat" with lines lw 1
+pause -1 "Hit any key to continue"

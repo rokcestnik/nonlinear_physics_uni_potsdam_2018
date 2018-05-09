@@ -1,0 +1,3 @@
+plot [4:11] [4:11] "map.dat", \
+	 x
+pause -1 "Hit any key to continue"
