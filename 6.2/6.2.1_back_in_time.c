@@ -35,8 +35,8 @@ int main(){
 	
 	//parameters
 	mu = 1.0;
-	double delta = 0.001;
-	double delta_t = 0.2; //parameter that tells us how far appart in time the points on the limit cycle are
+	double delta = 0.01;
+	double delta_t = 0.1; //parameter that tells us how far appart in time the points on the limit cycle are
 	double t0 = 0.0;
 	double tmax = 50.0;
 	double dt = 0.01;
@@ -100,15 +100,15 @@ int main(){
 		double delta_y = y_avg-y0;
 		//perturb in
 		x = x0 + delta*delta_x/dist(delta_x,delta_y);
-		y = y0 + delta*delta_x/dist(delta_x,delta_y);
+		y = y0 + delta*delta_y/dist(delta_x,delta_y);
 		for(double t = t0; t < tmax; t = t+dt){
 			integrator(&x, &y, -dt); //notice we're going back in time
 			if(x == x && y == y) fout_xy << x << ", " << y << endl; //check if x or y are not "nan"
 		}
 		fout_xy << endl;
 		//perturb out
-		x = x0 + delta*delta_x/dist(delta_x,delta_y);
-		y = y0 + delta*delta_x/dist(delta_x,delta_y);
+		x = x0 - delta*delta_x/dist(delta_x,delta_y);
+		y = y0 - delta*delta_y/dist(delta_x,delta_y);
 		for(double t = t0; t < tmax; t = t+dt){
 			integrator(&x, &y, -dt); //notice we're going back in time
 			if(x == x && y == y) fout_xy << x << ", " << y << endl; //check if x or y are not "nan"
