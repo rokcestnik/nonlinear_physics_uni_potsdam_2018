@@ -1,0 +1,4 @@
+plot "x.dat" with lines
+set term wxt 1
+splot [0.3:1.4] [0.3:1.4] [0.3:1.4] "x_xtau.dat" with lines,
+pause -1 "Hit any key to continue"
