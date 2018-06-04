@@ -1,0 +1,4 @@
+plot [-2.5:2.5] [-2.5:2.5] "vdp_xy.dat" with lines lt rgb "#FFDDFF", \
+						   "vdp_lc.dat" with lines lt rgb "red", \
+						   "vdp_iso.dat" with points ls 7,
+pause -1 "Hit any key to continue"

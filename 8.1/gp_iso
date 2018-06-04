@@ -1,0 +1,16 @@
+set size ratio -1
+set nokey
+plot [-4.5:4.5] [-5:5] "data/0_in.dat" with points pt 7 ps 0.5, \
+				   "data/1_in.dat" with points pt 7 ps 0.5, \
+				   "data/2_in.dat" with points pt 7 ps 0.5, \
+				   "data/3_in.dat" with points pt 7 ps 0.5, \
+				   "data/4_in.dat" with points pt 7 ps 0.5, \
+				   "data/5_in.dat" with points pt 7 ps 0.5, \
+				   "data/0_out.dat" with points pt 7 ps 0.5, \
+				   "data/1_out.dat" with points pt 7 ps 0.5, \
+				   "data/2_out.dat" with points pt 7 ps 0.5, \
+				   "data/3_out.dat" with points pt 7 ps 0.5, \
+				   "data/4_out.dat" with points pt 7 ps 0.5, \
+				   "data/5_out.dat" with points pt 7 ps 0.5, \
+				   "limit_cycle.dat" with lines lt rgb "#FF0000", 
+pause -1 "Hit any key to continue"
