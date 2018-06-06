@@ -1,0 +1,4 @@
+set term wxt 1
+plot [-2.7:2.7] [-3.6:3.6] "vdp_xy.dat" with lines, \
+				   "same_point.dat" with points, 
+pause -1 "Hit any key to continue"
