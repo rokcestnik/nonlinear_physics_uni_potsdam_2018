@@ -1,0 +1,4 @@
+plot "w1.dat" with lines, \
+	 "w2.dat" with lines, \
+	 "ph.dat" with lines, 
+pause -1 "Hit any key to continue"
