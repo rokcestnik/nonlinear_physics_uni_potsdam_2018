@@ -1,0 +1,807 @@
+set terminal gif animate delay 2
+set output "anim.gif"
+set xrange [-1.1:1.1]
+set yrange [-1.1:1.1]
+set size ratio -1
+set nokey
+set object circle at 0,0 size 1
+plot "saved_files/f1_0.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_0.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_1.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_1.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_2.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_2.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_3.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_3.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_4.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_4.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_5.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_5.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_6.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_6.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_7.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_7.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_8.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_8.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_9.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_9.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_10.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_10.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_11.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_11.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_12.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_12.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_13.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_13.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_14.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_14.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_15.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_15.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_16.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_16.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_17.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_17.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_18.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_18.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_19.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_19.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_20.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_20.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_21.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_21.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_22.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_22.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_23.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_23.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_24.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_24.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_25.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_25.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_26.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_26.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_27.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_27.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_28.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_28.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_29.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_29.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_30.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_30.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_31.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_31.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_32.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_32.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_33.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_33.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_34.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_34.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_35.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_35.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_36.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_36.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_37.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_37.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_38.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_38.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_39.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_39.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_40.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_40.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_41.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_41.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_42.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_42.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_43.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_43.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_44.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_44.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_45.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_45.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_46.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_46.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_47.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_47.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_48.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_48.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_49.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_49.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_50.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_50.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_51.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_51.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_52.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_52.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_53.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_53.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_54.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_54.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_55.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_55.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_56.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_56.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_57.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_57.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_58.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_58.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_59.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_59.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_60.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_60.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_61.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_61.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_62.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_62.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_63.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_63.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_64.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_64.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_65.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_65.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_66.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_66.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_67.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_67.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_68.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_68.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_69.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_69.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_70.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_70.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_71.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_71.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_72.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_72.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_73.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_73.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_74.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_74.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_75.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_75.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_76.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_76.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_77.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_77.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_78.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_78.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_79.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_79.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_80.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_80.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_81.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_81.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_82.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_82.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_83.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_83.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_84.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_84.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_85.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_85.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_86.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_86.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_87.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_87.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_88.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_88.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_89.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_89.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_90.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_90.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_91.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_91.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_92.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_92.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_93.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_93.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_94.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_94.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_95.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_95.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_96.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_96.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_97.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_97.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_98.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_98.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_99.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_99.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_100.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_100.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_101.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_101.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_102.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_102.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_103.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_103.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_104.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_104.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_105.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_105.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_106.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_106.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_107.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_107.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_108.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_108.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_109.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_109.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_110.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_110.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_111.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_111.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_112.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_112.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_113.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_113.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_114.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_114.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_115.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_115.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_116.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_116.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_117.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_117.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_118.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_118.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_119.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_119.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_120.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_120.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_121.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_121.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_122.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_122.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_123.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_123.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_124.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_124.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_125.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_125.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_126.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_126.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_127.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_127.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_128.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_128.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_129.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_129.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_130.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_130.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_131.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_131.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_132.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_132.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_133.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_133.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_134.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_134.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_135.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_135.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_136.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_136.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_137.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_137.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_138.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_138.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_139.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_139.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_140.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_140.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_141.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_141.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_142.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_142.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_143.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_143.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_144.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_144.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_145.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_145.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_146.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_146.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_147.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_147.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_148.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_148.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_149.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_149.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_150.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_150.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_151.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_151.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_152.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_152.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_153.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_153.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_154.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_154.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_155.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_155.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_156.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_156.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_157.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_157.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_158.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_158.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_159.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_159.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_160.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_160.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_161.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_161.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_162.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_162.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_163.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_163.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_164.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_164.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_165.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_165.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_166.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_166.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_167.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_167.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_168.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_168.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_169.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_169.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_170.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_170.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_171.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_171.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_172.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_172.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_173.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_173.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_174.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_174.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_175.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_175.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_176.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_176.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_177.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_177.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_178.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_178.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_179.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_179.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_180.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_180.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_181.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_181.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_182.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_182.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_183.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_183.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_184.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_184.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_185.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_185.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_186.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_186.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_187.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_187.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_188.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_188.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_189.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_189.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_190.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_190.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_191.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_191.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_192.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_192.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_193.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_193.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_194.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_194.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_195.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_195.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_196.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_196.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_197.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_197.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_198.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_198.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_199.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_199.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_200.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_200.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_201.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_201.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_202.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_202.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_203.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_203.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_204.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_204.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_205.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_205.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_206.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_206.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_207.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_207.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_208.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_208.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_209.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_209.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_210.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_210.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_211.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_211.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_212.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_212.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_213.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_213.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_214.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_214.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_215.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_215.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_216.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_216.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_217.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_217.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_218.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_218.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_219.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_219.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_220.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_220.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_221.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_221.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_222.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_222.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_223.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_223.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_224.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_224.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_225.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_225.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_226.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_226.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_227.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_227.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_228.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_228.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_229.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_229.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_230.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_230.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_231.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_231.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_232.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_232.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_233.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_233.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_234.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_234.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_235.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_235.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_236.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_236.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_237.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_237.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_238.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_238.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_239.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_239.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_240.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_240.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_241.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_241.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_242.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_242.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_243.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_243.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_244.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_244.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_245.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_245.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_246.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_246.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_247.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_247.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_248.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_248.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_249.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_249.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_250.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_250.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_251.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_251.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_252.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_252.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_253.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_253.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_254.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_254.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_255.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_255.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_256.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_256.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_257.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_257.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_258.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_258.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_259.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_259.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_260.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_260.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_261.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_261.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_262.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_262.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_263.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_263.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_264.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_264.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_265.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_265.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_266.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_266.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_267.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_267.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_268.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_268.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_269.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_269.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_270.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_270.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_271.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_271.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_272.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_272.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_273.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_273.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_274.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_274.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_275.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_275.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_276.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_276.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_277.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_277.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_278.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_278.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_279.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_279.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_280.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_280.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_281.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_281.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_282.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_282.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_283.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_283.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_284.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_284.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_285.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_285.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_286.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_286.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_287.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_287.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_288.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_288.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_289.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_289.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_290.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_290.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_291.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_291.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_292.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_292.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_293.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_293.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_294.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_294.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_295.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_295.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_296.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_296.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_297.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_297.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_298.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_298.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_299.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_299.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_300.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_300.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_301.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_301.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_302.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_302.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_303.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_303.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_304.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_304.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_305.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_305.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_306.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_306.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_307.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_307.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_308.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_308.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_309.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_309.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_310.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_310.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_311.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_311.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_312.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_312.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_313.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_313.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_314.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_314.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_315.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_315.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_316.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_316.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_317.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_317.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_318.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_318.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_319.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_319.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_320.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_320.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_321.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_321.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_322.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_322.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_323.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_323.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_324.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_324.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_325.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_325.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_326.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_326.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_327.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_327.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_328.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_328.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_329.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_329.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_330.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_330.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_331.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_331.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_332.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_332.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_333.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_333.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_334.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_334.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_335.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_335.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_336.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_336.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_337.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_337.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_338.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_338.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_339.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_339.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_340.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_340.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_341.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_341.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_342.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_342.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_343.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_343.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_344.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_344.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_345.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_345.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_346.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_346.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_347.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_347.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_348.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_348.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_349.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_349.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_350.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_350.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_351.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_351.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_352.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_352.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_353.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_353.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_354.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_354.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_355.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_355.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_356.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_356.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_357.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_357.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_358.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_358.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_359.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_359.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_360.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_360.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_361.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_361.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_362.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_362.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_363.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_363.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_364.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_364.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_365.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_365.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_366.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_366.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_367.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_367.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_368.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_368.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_369.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_369.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_370.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_370.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_371.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_371.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_372.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_372.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_373.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_373.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_374.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_374.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_375.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_375.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_376.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_376.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_377.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_377.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_378.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_378.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_379.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_379.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_380.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_380.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_381.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_381.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_382.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_382.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_383.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_383.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_384.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_384.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_385.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_385.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_386.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_386.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_387.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_387.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_388.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_388.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_389.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_389.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_390.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_390.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_391.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_391.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_392.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_392.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_393.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_393.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_394.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_394.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_395.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_395.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_396.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_396.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_397.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_397.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_398.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_398.dat" with points pointtype 7 pointsize 2
+plot "saved_files/f1_399.dat" with points pointtype 7 pointsize 2, \
+     "saved_files/f2_399.dat" with points pointtype 7 pointsize 2
