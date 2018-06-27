@@ -1,0 +1,4 @@
+set xlabel "eps"
+set ylabel "observed frequencies"
+plot "omegas.dat" with points pt 7 ps 0.5
+pause -1 "Hit any key to continue"

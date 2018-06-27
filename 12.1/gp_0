@@ -1,0 +1,5 @@
+set xlabel "time"
+set ylabel "R, theta"
+plot "R.dat" with lines, \
+	 "theta.dat" with lines,
+pause -1 "Hit any key to continue"
