@@ -1,0 +1,14 @@
+set xlabel "r"
+set ylabel "P(r)"
+n=100 #number of intervals
+max=3. #max value
+min=1. #min value
+width=(max-min)/n #interval width
+#function used to map a value to the intervals
+hist(x,width)=width*floor(x/width)+width/2.0
+set boxwidth width
+set style fill solid 0.5 # fill style
+
+#count and plot
+plot [0.0:3.5] "uni.dat" u (hist($1,width)):(1.0) smooth freq w boxes lc rgb"orange" notitle
+pause -1 "Hit any key to continue"
